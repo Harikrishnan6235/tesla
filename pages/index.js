@@ -2,9 +2,13 @@ import React from 'react'
 import styles from "../styles/Home.module.css"
 import Header from './Header'
 import { FaChevronDown } from "react-icons/fa";
+import Footer from './Footer';
 
 
 function index() {
+
+
+
   return (
     <div className={styles.main}>
       <Header/>
@@ -108,6 +112,22 @@ function index() {
   </div>
   
 </div>
+
+<div className={styles.content7}>
+
+
+<div className={styles.namediv7}>
+    <h1 className={styles.modelname7}>Accessories</h1>
+  </div>
+  <div className={styles.buttons7}>
+    <div className={styles.orderdiv7}>
+      <h1 className={styles.custom7}>Shop Now</h1>
+    </div>
+  </div>
+  
+<Footer/>
+</div>
+
 
     </div>
   )

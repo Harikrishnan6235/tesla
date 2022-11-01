@@ -1,0 +1,65 @@
+.footer{
+    width: 100vw;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.infos{
+    width: 50%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.compyear{
+    width: 12%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.compname{
+    font-size: small;
+    font-weight: 300;
+}
+.c{
+    width: 12px;
+    height: 12px;
+}
+.year{
+    font-size: small;
+    font-weight: 300;
+}
+.privacy{
+    font-size: small;
+    font-weight: 300;
+}
+.vehicle{
+    font-size: small;
+    font-weight: 300;
+}
+.contact{
+    font-size: small;
+    font-weight: 300;
+}
+.careers{
+    font-size: small;
+    font-weight: 300;
+}
+.news{
+    font-size: small;
+    font-weight: 300;
+}
+.engage{
+    font-size: small;
+    font-weight: 300;
+}
+.locations{
+    font-size: small;
+    font-weight: 300;
+}
