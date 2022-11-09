@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from "../styles/Home.module.css"
-import Header from './Header'
+import Header from '../components/Header'
 import { FaChevronDown } from "react-icons/fa";
-import Footer from './Footer';
+import Footer from '../components/Footer';
 
 
 function index() {

@@ -1,7 +1,19 @@
-.header{
+.headerfixed{
     width: 100vw;
     height: 12%;
     position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 100;
+
+}
+.headerabs{
+    width: 100vw;
+    height: 12%;
+    position: absolute;
     top: 0;
     display: flex;
     flex-direction: row;
@@ -19,7 +31,7 @@
     justify-content: center;
 }
 .icon{
-    width: 40%;
+    width: 38%;
     height: 18%;
     margin-left:-70px;
 }

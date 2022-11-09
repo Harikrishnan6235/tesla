@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from "../styles/Header.module.css"
 
-function Header() {
+function Header({iffixed=true}) {
   return (
-    <header className={styles.header}>
+    <header  className={iffixed===true?styles.headerfixed:styles.headerabs}>
       <div className={styles.icondiv}>
         <img className={styles.icon} src="/teslalogo.png" alt="" />
       </div>

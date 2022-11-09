@@ -1,0 +1,556 @@
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+    
+}
+.page1{
+  width: 100%;
+  height: 100vh;
+  background: url("../public/modelS.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+  position: relative; 
+}
+.gradientdiv{
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top,black,transparent);
+}
+.namediv{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    margin-top: 5vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .modelname{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  .message{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    margin-top: -20px;
+  }
+  .bottomdiv{
+    width: 100%;
+    height: 19%;
+    margin-bottom: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+
+  }
+
+  .features{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding-inline: 15%;
+    box-sizing: border-box;
+
+  }
+  .mileagediv{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .mileage{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+  }
+  .range{
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin-top: -15px;
+  }
+  .timediv{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .time{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+  }
+  .speedrange{
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin-top: -15px;
+
+
+  }
+  .speeddiv{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .speed{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+  }
+  .topspeed{
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin-top: -15px;
+
+  }
+  .powerdiv{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hp{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+  }
+  .peakpower{
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin-top: -15px;
+
+  }
+  .order{
+    width: 21%;
+    height: 30%;
+    border: 3px solid white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .ordernow{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+  }
+  .chatdiv{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: fixed;
+    bottom: 5;
+    right: 0;
+    z-index: 1000;
+    
+  }
+  .chat{
+    width: 40%;
+    height: 40%;
+  }
+  .link1{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .link1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    box-shadow: 0px 20px 20px 10px black;
+    z-index: 0;
+
+  }
+  .inttitle{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .page2{
+    width: 100vw;
+    height: 100vh;
+    background: url("/msint.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .page3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+
+  .videodiv3{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  .page4{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+  .page4contents{
+    width: 77%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .topdiv4{
+    width: 100%;
+    height: 55%;
+    background-color: black;
+    outline: 1px solid red;
+
+  }
+  .bottomdiv4{
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  .sintpic{
+    width: 50%;
+    height: 100%;
+    background: url("../public/msint2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .connected{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; 
+
+  }
+  .stayconnected{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 120px;
+
+  }
+  .paraconnected{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 67%;
+    text-align: left;
+    margin-left: 120px;
+
+  }
+  .page5{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .page5contents{
+    width: 77%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .topdiv5{
+    width: 100%;
+    height: 46%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .topleft5{
+    width: 50%;
+    height: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .immersivesound{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+  }
+  .sounddefinition{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 120px;
+  }
+  .topright5{
+    width: 50%;
+    height: 100%;
+    background-color: darkgray;
+
+  }
+  .bottomdiv5{
+    width: 100%;
+    height: 54%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;    
+
+  }
+  .bottomleft5{
+    width: 50%;
+    height: 100%;
+    background: url("../public/msintgrid.jpeg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+
+
+  }
+  .bottomright5{
+    width: 50%;
+    height: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .roomforeverything{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 120px;
+
+
+  }
+  .roomdefinition{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 67%;
+    text-align: left;
+    margin-left: 120px;
+  }
+
+  .page6{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+.topdiv6{
+  width: 100%;
+  height: 67%;
+  background:url("../public/msperformance.jpeg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding-inline: 150px;
+
+}
+.peakpowerdiv6{
+  width: 15%;
+  height: 20%;
+  color: white;
+  margin-bottom: 52px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.peakvalue6{
+  font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+.peakpower6{
+  font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin-top: -15px;
+}
+.milediv6{
+  width: 15%;
+  height: 20%;
+  color: white;
+  margin-bottom: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.miledetails6{
+  font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin-top: -15px;
+
+}
+.speedtime6{
+  font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+.timediv6{
+  width: 15%;
+  height: 20%;
+  color: white;
+  margin-bottom: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.time6{
+  font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+.speed6{
+  font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin-top: -15px;
+
+}
+.bottomdiv6{
+  width: 100%;
+  height: 33%;
+  background-color: white;
+  outline: 1px solid red;
+}
+.bottomleftdiv6{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  outline: 1px solid red;
+
+}
+.plaid6{
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  margin-left: 150px;
+  margin-top: -10px;
+}
+.beyondludicrous{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+  margin-top: -10px;
+  margin-left: 150px;
+
+
+}
+.orderdiv6{
+  width: 38%;
+  height: 18%;
+  border: 3px solid black;
+  border-radius: 3px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.ordernow6{
+  font-size: 16px;
+  font-weight: 400;
+}
